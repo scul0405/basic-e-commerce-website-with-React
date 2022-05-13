@@ -3,7 +3,6 @@ import Category from '../categories/Category'
 import './Directory.scss'
 
 const Directory = ({categories}) => {
-    console.log(categories);
   return (
     <div className='categories-container'>
         {categories.map(category => {
