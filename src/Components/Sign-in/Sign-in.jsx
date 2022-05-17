@@ -58,8 +58,10 @@ const SignIn = () => {
     <div className='sign-in'>
         <h2>I already have an account</h2>
         <span>Sign in with your email and password</span>
-        <InputForm label='Email' type='email' name='email' onChange={handleChange} value={email} required />
-        <InputForm label='Password' type='password' name='password' onChange={handleChange} value={password} required/>
+        <div className='input-container'>
+          <InputForm label='Email' type='email' name='email' onChange={handleChange} value={email} required />
+          <InputForm label='Password' type='password' name='password' onChange={handleChange} value={password} required/>
+        </div>
         <div className='button-container'>
           <Button className='btn-black' type='submit' onClick={handleSubmit} title='Sign in'/>
           <Button className='btn-blue' onClick={loginGoogleUser} title='Sign in with Google' />

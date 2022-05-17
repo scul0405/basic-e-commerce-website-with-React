@@ -1,7 +1,7 @@
 .btn {
     height: 50px;
     min-width: 165px;
-    width: auto;
+       width: auto;
     padding: 0 15px;
     line-height: 50px;
 
@@ -25,6 +25,7 @@
             background-color: white;
             color: black;
         }
+
     }
 
     &-blue {
@@ -32,6 +33,17 @@
 
         &:hover {
             background-color: #357ae8;
+        }
+    }
+
+    &-black-inverse {
+        background-color: white;
+        color: black;
+        border: 1px solid black;
+
+        &:hover {
+            background-color: black;
+            color: white;
         }
     }
 

@@ -5,14 +5,9 @@ import { Routes, Route } from 'react-router-dom'
 import Home from './Routes/Home/Home.jsx'
 import Navigation from './Routes/Navigation/Navigation.jsx'
 import Authentication from './Routes/Authentication/Authentication'
+import Shop from './Routes/Shop/shop.jsx'
 
 const App = () => {
-
-  const Shop = () => (
-    <div>
-      I am the shop
-    </div>
-  )
 
   return (
     <Routes>

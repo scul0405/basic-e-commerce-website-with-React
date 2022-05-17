@@ -1,10 +1,9 @@
 .sign-in {
     width: 40%;
-    form {
-        display: flex;
-        flex-direction: column;
+    .input-container{
+        margin: 20px 0;
+        margin-bottom: 40px;
     }
-
     .button-container {
         display: flex;
         justify-content: space-between;

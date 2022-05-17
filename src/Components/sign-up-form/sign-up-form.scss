@@ -2,6 +2,11 @@
     form {
         display: flex;
         flex-direction: column;
+
+        .btn {
+            margin-top: 20px;
+        }
     }
+
     width: 40%;
 }

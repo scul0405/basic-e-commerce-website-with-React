@@ -1,0 +1,36 @@
+.product-card-container{
+    width: 100%;
+    position: relative;
+    height: 350px;
+    padding: 0 auto ;
+    img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .footer {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .btn {
+        width: 80%;
+        font-weight: 600;
+        position: absolute;
+        top: 80%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        opacity: 0;
+        visibility: hidden;
+
+    }
+    &:hover .btn{
+        opacity: .8;
+        top: 70%;
+        visibility: visible;
+    }
+    &:hover img {
+        opacity: .8;
+    }
+}
