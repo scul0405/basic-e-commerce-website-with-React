@@ -48,4 +48,17 @@
         }
     }
 
+    .cart-items {
+        max-height: 280px;
+        overflow-y: auto;
+        position: relative;
+        .item-not-found {
+            width: 100%;
+            display: block;
+            text-align: center;
+            margin: 0 auto;
+            font-size: 18px;
+        }
+    }
+
 }

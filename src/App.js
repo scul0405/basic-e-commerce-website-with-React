@@ -8,7 +8,6 @@ import Authentication from './Routes/Authentication/Authentication'
 import Shop from './Routes/Shop/shop.jsx'
 
 const App = () => {
-
   return (
     <Routes>
       <Route path='/' element= {<Navigation/>}>
