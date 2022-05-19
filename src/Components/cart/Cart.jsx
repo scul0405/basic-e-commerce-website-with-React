@@ -4,6 +4,7 @@ import CartItem from '../cart-item/cart-item'
 import { CartItemsContext } from '../../contexts/cartItems'
 import './cart.scss'
 import Button from '../button/button'
+import { Link } from 'react-router-dom'
 
 
 const Cart = () => {
@@ -29,7 +30,9 @@ const Cart = () => {
                         : <span className='item-not-found'>No item found</span>
                 } 
             </div>
-            <Button title='Go to checkout' className='btn-black'/>
+            <Link to='/checkout'>
+                <Button title='Go to checkout' className='btn-black' onClick={handleToggle}/>
+            </Link>
         </div>)
         }
     </div>
