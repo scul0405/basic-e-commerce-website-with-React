@@ -15,12 +15,10 @@ const ProductCard = ({product}) => {
       setCartItems(cartItems.map(item => item.id === product.id ? {...item, quantity: item.quantity + 1} : item))
      : setCartItems([...cartItems,{...product, quantity: 1}]);
   }
-
-  console.log();
   return (
     <div className='product-card-container'>
         <img src={imageUrl} alt={name}/>
-        <div className='footer'>
+        <div className='product-card-footer'>
             <p>{name}</p>
             <p>{price + '$'}</p>
         </div>

@@ -12,7 +12,6 @@ const Navigation = () => {
         await(signOutUser);
         setCurrentUser(null);
     }
-    console.log(currentUser);
   return (
     <Fragment>
         <div className='navigation'>
@@ -45,7 +44,10 @@ const Navigation = () => {
                 </div>
             </div>
         </div>
+
         <Outlet />
+
+        
     </Fragment>
   )
 }

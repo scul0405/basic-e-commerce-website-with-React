@@ -5,6 +5,7 @@ import { CartItemsContext } from '../../contexts/cartItems'
 
 const Checkout = () => {
     const {cartItems, setCartItems} = useContext(CartItemsContext);
+    // Re-render when cart items changing so don't need to use useState
     const total = cartItems.reduce((sum,item) => {
         return sum + item.price*item.quantity;
     },0)

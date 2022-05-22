@@ -1,0 +1,18 @@
+.Category-shop-container{
+    .products-overview {
+        width: 90%;
+        margin: 0 auto;
+        .title {
+            font-weight: 600;
+            margin: 0 auto;
+            font-size: 50px;
+        }
+        .products-container {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            column-gap: 20px;
+            row-gap: 80px;
+        }
+    }
+
+}

@@ -1,15 +1,14 @@
 .product-card-container{
     width: 100%;
     position: relative;
-    height: 350px;
     padding: 0 auto ;
     img {
-        height: 100%;
+        height: 350px;
         width: 100%;
         object-fit: cover;
     }
 
-    .footer {
+    .product-card-footer {
         display: flex;
         justify-content: space-between;
     }

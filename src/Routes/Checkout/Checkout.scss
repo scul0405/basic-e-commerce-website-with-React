@@ -36,9 +36,16 @@
             }
             .arrow {
                 cursor: pointer;
+                &:hover {
+                    color: green;
+                }
             }
             .item-remove {
                 cursor: pointer;
+                &:hover {
+                    transform: scale(1.2);
+                    color: red;
+                }
             }
         }
     }
